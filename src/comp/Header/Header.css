@@ -1,9 +1,12 @@
 .header {
-	margin-top: 80px;
-	display: flex;
-	height: 52px;
-	justify-content: space-between;
+	width: 100%;
+	max-width: 1440px;
 	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
 	align-items: center;
 }
 .headerItems_Container {
@@ -17,10 +20,14 @@
 }
 .headerItem {
 	cursor: pointer;
+	padding: 1px;
+	color: #9198a2;
 }
 .headerItem:hover,
 .headerItem:focus {
-	font-weight: 500;
+	font-weight: 700;
+	padding: 0;
+	color: white;
 }
 .header img {
 	width: fit-content;
@@ -32,7 +39,6 @@
 		height: fit-content;
 	}
 	.header {
-		margin-top: 20px;
-		/* flex-wrap: wrap; */
+		padding: 20px;
 	}
 }

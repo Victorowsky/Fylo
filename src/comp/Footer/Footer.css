@@ -1,0 +1,135 @@
+.footer {
+	width: 100%;
+	min-height: 400px;
+	padding-bottom: 50px;
+	background-color: hsl(216, 53%, 9%);
+	display: flex;
+	align-items: center;
+	padding-top: 275px;
+	padding: 0 30px;
+	color: #9198a2;
+}
+.footer_Container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1440px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 30px;
+}
+.imageFooter {
+	/* width: 150px; */
+	align-self: flex-start;
+}
+.footer_Info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1440px;
+	gap: 40px;
+}
+.footerElement {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	gap: 20px;
+}
+.footerElement_Row {
+	display: flex;
+	gap: 20px;
+}
+.footerElement_Row p {
+	margin: 0;
+}
+.footerElement_Row img {
+	object-fit: contain;
+	align-self: flex-start;
+}
+.footerElement_Column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.footerElement_Column ul {
+	margin: 0;
+	padding: 0;
+}
+.FooterArray_ListItem {
+	list-style-type: none;
+	min-width: 100px;
+	width: fit-content;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+.FooterArray_ListItem:hover {
+	font-weight: 700;
+}
+.footerSocials {
+	display: flex;
+	gap: 10px;
+	font-size: 20px;
+}
+.facebook_Icon,
+.instagram_Icon,
+.twitter_Icon {
+	font-size: 60px;
+	box-sizing: content-box;
+	cursor: pointer;
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 25px;
+}
+.facebook_Icon:hover {
+	color: #4267b2;
+	border: 2px solid #4267b2 !important;
+}
+.instagram_Icon:hover {
+	color: #fcaf45;
+	border: 2px solid #fcaf45 !important;
+}
+.twitter_Icon:hover {
+	color: #1da1f2;
+	border: 2px solid #1da1f2 !important;
+}
+
+@media (max-width: 1350px) {
+	.footer_Container {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 950px) {
+	.footer {
+		padding-top: 10%;
+	}
+}
+
+@media (max-width: 900px) {
+	.footerElement_Row {
+		align-items: center;
+	}
+	.footer_Container {
+		gap: 30px;
+		padding: 50px 0;
+	}
+	.imageFooter {
+		align-self: center;
+	}
+	.footer_Info {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.footerElement img {
+		align-self: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer_Container {
+		margin-top: 30px;
+	}
+}

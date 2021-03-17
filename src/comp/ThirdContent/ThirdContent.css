@@ -1,0 +1,67 @@
+.thirdContent {
+	width: 100%;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 40vh;
+	display: flex;
+	justify-content: center;
+	margin-top: 170px;
+}
+.thirdContent .image {
+	flex: 1;
+}
+.image img {
+	width: 100%;
+	max-width: 615px;
+}
+.thirdContent_Text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	flex-shrink: 1;
+	padding: 15px 25px;
+	justify-content: center;
+}
+.p_hover {
+	cursor: pointer;
+	width: fit-content;
+	transform-origin: 0 50%;
+	transition: 0.3s border;
+	color: hsl(176, 68%, 64%);
+	position: relative;
+}
+.p_hover::before {
+	position: absolute;
+	content: " ";
+	background-color: hsl(176, 68%, 64%);
+	transform-origin: 0 50%;
+	transform: scale(0);
+	width: 100%;
+	top: 100%;
+	height: 2px;
+	transition: 1s;
+}
+.p_hover:hover::before,
+.p_hover:focus::before {
+	transform: scale(1);
+}
+.p_hover:hover,
+.p_hover:focus {
+	font-weight: 700;
+}
+
+@media (max-width: 1100px) {
+	.thirdContent {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+	}
+	.thirdContent h1 {
+		font-size: 20px;
+	}
+	.image {
+		width: 100%;
+		text-align: center;
+	}
+}

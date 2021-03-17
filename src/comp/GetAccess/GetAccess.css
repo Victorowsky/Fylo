@@ -1,0 +1,80 @@
+.getAccess_Container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	transform: translateY(120px);
+}
+.getAccess {
+	width: 100%;
+	max-width: 900px;
+	margin: 10px 15px;
+	background-color: hsl(218, 28%, 13%);
+	box-shadow: 0 0 10px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 5%;
+}
+.getAccess p {
+	text-align: center;
+}
+
+.getAccess_Form {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 15px;
+	flex-direction: column;
+}
+.errorMessage {
+	justify-self: flex-start;
+	width: fit-content;
+	font-size: 12px;
+	color: hsl(0, 100%, 63%);
+	margin: 0;
+	margin-left: 10px;
+	height: 10px;
+}
+.form input {
+	border-radius: 25px;
+	height: 100%;
+	padding: 20px 20px;
+	outline: none;
+	border: none;
+	width: 90%;
+}
+.form form {
+	flex: 1;
+}
+.form {
+	width: 100%;
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+@media (max-width: 1050px) {
+	.getAccess_Container {
+		transform: translateY(80px);
+	}
+}
+
+@media (max-width: 600px) {
+	.getAccess_Form {
+		max-width: 300px;
+		width: 90%;
+	}
+	.form {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.form form,
+	.form input,
+	.form .button_GetStarted {
+		width: 100%;
+	}
+
+	.getAccess_Form {
+		align-items: center;
+	}
+}

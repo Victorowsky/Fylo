@@ -1,0 +1,70 @@
+.opinionsContent {
+	width: 100%;
+	max-width: 1440px;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	position: relative;
+}
+.opinionsContent .quotes {
+	width: 50px;
+	height: fit-content;
+	position: absolute;
+	left: 0px;
+	top: -25px;
+	z-index: 10;
+}
+.opinion {
+	max-width: 500px;
+	flex: 1;
+	min-height: 250px;
+	height: fit-content;
+	margin: 10px;
+	background-color: hsl(219, 30%, 18%);
+	border-radius: 5px;
+	padding: 20px 25px;
+	display: flex;
+	flex-direction: column;
+	z-index: 20;
+	justify-content: space-between;
+	box-shadow: 2px 5px 5px black;
+}
+.opinion_Text {
+	letter-spacing: 1px;
+}
+.authorImg {
+	width: 40px;
+}
+.authorImg img {
+	border-radius: 50%;
+	width: 100%;
+}
+.authorInfo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.authorInfo p {
+	margin: 0;
+}
+.details {
+	font-size: 10px;
+	color: #9198a2;
+}
+
+@media (max-width: 1100px) {
+	.opinionsContent {
+		flex-direction: column;
+		margin-top: 20px;
+		align-items: center;
+	}
+	.opinion {
+		margin: 25px;
+	}
+	.opinionsContent .quotes {
+		top: -10px;
+		left: 30px;
+	}
+}

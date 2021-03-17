@@ -1,0 +1,42 @@
+.secondContent {
+	width: 100%;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 120px;
+	min-height: 500px;
+	height: fit-content;
+	justify-content: space-between;
+	gap: 100px;
+}
+.flexRow {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.flexRow_Item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	max-width: 500px;
+	padding: 5px;
+}
+
+@media (max-width: 700px) {
+	.flexRow {
+		flex-direction: column;
+		gap: 50px;
+		align-items: center;
+	}
+	.secondContent {
+		padding: 15px;
+		padding-top: 40px;
+		gap: 50px;
+	}
+}
