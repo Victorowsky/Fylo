@@ -29,7 +29,7 @@
 	flex-direction: column;
 	z-index: 20;
 	justify-content: space-between;
-	box-shadow: 2px 5px 5px black;
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.479);
 }
 .opinion_Text {
 	letter-spacing: 1px;
