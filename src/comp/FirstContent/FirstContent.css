@@ -39,10 +39,7 @@
 }
 .button_GetStarted:hover,
 .button_GetStarted:focus {
-	background-image: rgba(101, 226, 217, 1) 0%;
 	background-position: left;
-
-	/* background-position: 250px; */
 }
 .introImage img {
 	width: 100%;
