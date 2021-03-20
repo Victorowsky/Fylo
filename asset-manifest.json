@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Fylo/static/css/main.76cdbbe2.chunk.css",
+    "main.css": "/Fylo/static/css/main.7bdc234d.chunk.css",
     "main.js": "/Fylo/static/js/main.079ad4d0.chunk.js",
     "main.js.map": "/Fylo/static/js/main.079ad4d0.chunk.js.map",
     "runtime-main.js": "/Fylo/static/js/runtime-main.a099ed08.js",
@@ -10,7 +10,7 @@
     "static/js/3.44a8e7c4.chunk.js": "/Fylo/static/js/3.44a8e7c4.chunk.js",
     "static/js/3.44a8e7c4.chunk.js.map": "/Fylo/static/js/3.44a8e7c4.chunk.js.map",
     "index.html": "/Fylo/index.html",
-    "static/css/main.76cdbbe2.chunk.css.map": "/Fylo/static/css/main.76cdbbe2.chunk.css.map",
+    "static/css/main.7bdc234d.chunk.css.map": "/Fylo/static/css/main.7bdc234d.chunk.css.map",
     "static/js/2.f5ae0722.chunk.js.LICENSE.txt": "/Fylo/static/js/2.f5ae0722.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Fylo/static/media/bg-curvy-mobile.3ab5d2c7.svg",
     "static/media/icon-access-anywhere.2856c661.svg": "/Fylo/static/media/icon-access-anywhere.2856c661.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a099ed08.js",
     "static/js/2.f5ae0722.chunk.js",
-    "static/css/main.76cdbbe2.chunk.css",
+    "static/css/main.7bdc234d.chunk.css",
     "static/js/main.079ad4d0.chunk.js"
   ]
 }
